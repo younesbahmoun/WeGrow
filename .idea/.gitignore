@@ -8,3 +8,20 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+
+
+# Local environment secrets
+.env
+.env.*
+
+# Keep the example configuration in Git
+!.env.example
+
+# Java build output
+target/
+out/
+
+# IntelliJ
+.idea/
+*.iml

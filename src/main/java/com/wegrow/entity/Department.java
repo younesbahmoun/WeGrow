@@ -21,6 +21,8 @@ public class Department {
     @Column(name = "description")
     private String description;
 
+//    @OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
+
     public Department() {
     }
 

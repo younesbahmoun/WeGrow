@@ -14,8 +14,8 @@ CREATE TABLE IF NOT EXISTS employees (
     department_id BIGINT NOT NULL,
     CONSTRAINT fk_employees_department FOREIGN KEY (department_id) REFERENCES departments(id) ON DELETE RESTRICT
 );
-
-CREATE INDEX IF NOT EXISTS idx_employees_department_id ON employees(department_id);
+--
+-- CREATE INDEX IF NOT EXISTS idx_employees_department_id ON employees(department_id);
 
 -- INSERT INTO departments (name, description)
 -- VALUES ('Human Resources', 'Recruitment, employee administration, and HR policies'), ('Engineering', 'Software development and technical operations')
